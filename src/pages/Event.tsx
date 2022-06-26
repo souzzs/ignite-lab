@@ -1,8 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Header from '../Header'
-import PlayerVideo from '../PlayerVideo'
-import SideBar from '../Sidebar'
+import Header from '../components/Header'
+import PlayerVideo from '../components/PlayerVideo'
+import SideBar from '../components/Sidebar'
 
 
 const Event = () => {

@@ -38,7 +38,7 @@ const SideBar = () => {
             <LessonCard 
               key={id}
               title={title}
-              slug={slug}
+              slugProp={slug}
               availableAt={new Date(availableAt)}
               type={lessonType}
             />
